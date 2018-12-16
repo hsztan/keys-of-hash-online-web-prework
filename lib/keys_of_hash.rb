@@ -7,7 +7,8 @@ class Hash
     self.each do |key, val|
       args.each do |element|
         puts val
+      end
     end
-    
+
   end
 end
