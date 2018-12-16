@@ -4,7 +4,10 @@ class Hash
   def keys_of(*args)
     array = []
 
-    array
-    binding.pry
+    self.each do |key, val|
+      args.each do |element|
+        puts val
+    end
+    
   end
 end
