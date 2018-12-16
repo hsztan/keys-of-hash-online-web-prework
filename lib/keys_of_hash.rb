@@ -6,8 +6,9 @@ class Hash
 
     self.each do |key, val|
       args.each do |element|
-        puts val
-        binding.pry
+        if val == element
+          array << key
+        end
       end
     end
 
